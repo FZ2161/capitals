@@ -1,0 +1,90 @@
+body{
+    margin: 0px;
+    background-color:  rgb(43, 43, 43);
+    display: flex;
+    flex-direction: column;
+}
+
+#d0{
+
+    height: 500px;
+    width: 300px;
+    border: 5px solid #afafaf;
+    background-color: #666666;
+
+    
+    
+}
+h1{
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+#d1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 79vh;
+}
+#d2{
+    display: grid;
+    grid-template-areas: 'd2-1 d2-2';
+    grid-template-rows: 100%;
+    grid-template-columns: 150px auto;
+
+    color: rgb(197, 197, 197);
+    padding-left: 20px;
+    height: 20vh;
+    border: 1px solid #afafaf;
+    background-color: #525252;
+}
+#d0{
+    display: grid;
+    grid-template-areas: 
+    "div01"
+    "div02";
+    grid-template-columns: 350px, 150px;
+    padding: 10px;
+}
+
+#d01{
+    grid-area: "div01";
+    height: 350px;
+    width: 300px;
+}
+
+#d02{
+    grid-area: "div02";
+    height: 150px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#d2-2{
+    padding: 20px;
+    
+}
+#h1-1{
+    text-align: left;
+    width: auto;
+}
+
+
+#inp1{
+    width: 250px;
+    height: 27.05px;
+}
+input{
+    height: 27.05px;
+}
+
+#but1{
+    height: 30px;
+    width: 200px;
+
+}
